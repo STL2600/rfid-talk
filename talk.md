@@ -1,7 +1,51 @@
 % RFID
 % https://github.com/STL2600/rfid-talk
 
-# Intro / History
+# What is RFID?
+
+- Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags attached to objects.
+
+## What is NFC?
+
+- Near-Field Communication is a set of communication protocols that operate over RFID technologies.
+
+# History of RFID
+
+## Crystal Radios
+
+![Crystal Radio][stand1.jpg]
+
+## Crystal Radios
+- Simple radio receiver that can be built with as little as 3 parts
+  - Antenna
+  - Tuning Coil
+  - Semiconducting crystal or a diode
+
+## The "Thing"
+
+![The Thing][thing.jpg]
+
+## The "Thing"
+
+- Carved wooden plaque of the Great Seal of the United States to the US Ambassador as a “gesture of friendship” in 1945, before WWII.
+- Wasn’t discovered to be a bug until 1952, seven years later.
+
+## Identification, Friend or Foe (IFF)
+
+![radar][radar.jpg]
+
+## Identification, Friend or Foe (IFF)
+
+- IFF are transponders on military aircraft to distinguish between friendly aircraft and enemy aircraft on radar.
+- Would feed a signal back into a received radar signal, identifying the craft.
+- Basically functioned as a radio repeater, but tweaking the signal just enough to change the radar blip.
+
+## First RFID Tag
+
+- Demoed at Los Alamos National Laboratory in 1973.
+- Same technique is used in most RFID systems today.
+- Operated at 915 MHz and could transmit 12-bits
+
 
 # Basic Tech
 
@@ -62,7 +106,53 @@
 
 ## Payments
 
+- EMV Standard
+- Also applies to CHIP transactions
+- HF Frequency
+- Range between 1 - 1.5 meters
+
+## Payments
+
+Highly Simplified Process Overview
+- Terminal asks what the card can do
+- Cryptogram containing transaction details is signed
+- Cryptogram is sent to processor
+- Approval sent back
+- Also a bunch of diagnostic stuff
+
+## Payments
+
+Tokenization Method
+- Updated EMV Standard
+- Also used by Apple Pay and Google Pay.
+- On smart phones, biometrics are used to secure keys
+
+## Payment
+
+Transaction overview:
+- Device creates DAN and a Private Key during setup
+- DAN and Private Key sent to card issuer
+- Encrypted transaction details are sent to the card issuer.
+- Card issuer decrypts the details and processes the transaction
+
 ## Asset Tracking
+
+For Individual Items
+- Electronic Product Codes (EPC)
+- Contains URI representing the product
+- EPCglobal network is a giant product database
+- Used by Walmart in conjuction with UPCs
+- Generally LF
+- DoS-able network backend
+
+## Asset Tracking
+
+For Bulk Items
+- Lots of commercial logistic options
+- Can be LF or HF, depending on the applicaton
+- Usually an active tag for longer range
+- LF can be read up to 2000 meters
+- HF is used with NFC when additional details are required
 
 ## Road / Bridge Tolling
 
