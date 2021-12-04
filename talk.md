@@ -195,7 +195,16 @@ For Bulk Items
  - Newer passports use a metal foil lining in the cover for security
  - In the future, passports will include a pin code to enable encryption
 
-## Cyborgs
+## Cyborgs!
+![cyborg][cyborg.png]
+
+## Cyborgs!
+
+- HF and LF
+- Some emulate a range of chips
+- LEDs and Core Temp readings
+- Big needles!
+- https://dangerousthings.com/
 
 # Demos
 
