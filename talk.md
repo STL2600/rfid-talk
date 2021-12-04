@@ -13,7 +13,7 @@
 
 ## Crystal Radios
 
-![Crystal Radio][stand1.jpg]
+![Crystal Radio](stand1.jpg)
 
 ## Crystal Radios
 - Simple radio receiver that can be built with as little as 3 parts
@@ -23,7 +23,7 @@
 
 ## The "Thing"
 
-![The Thing][thing.jpg]
+![The Thing](thing.jpg)
 
 ## The "Thing"
 
@@ -32,7 +32,7 @@
 
 ## Identification, Friend or Foe (IFF)
 
-![radar][radar.jpg]
+![radar](radar.jpg)
 
 ## Identification, Friend or Foe (IFF)
 
@@ -107,52 +107,52 @@
 ## Payments
 
 - EMV Standard
-- Also applies to CHIP transactions
-- HF Frequency
-- Range between 1 - 1.5 meters
+  - Also applies to CHIP transactions
+  - HF Frequency
+  - Range between 1 - 1.5 meters
 
 ## Payments
 
-Highly Simplified Process Overview
-- Terminal asks what the card can do
-- Cryptogram containing transaction details is signed
-- Cryptogram is sent to processor
-- Approval sent back
-- Also a bunch of diagnostic stuff
+- Highly Simplified Process Overview
+  - Terminal asks what the card can do
+  - Cryptogram containing transaction details is signed
+  - Cryptogram is sent to processor
+  - Approval sent back
+  - Also a bunch of diagnostic stuff
 
 ## Payments
 
-Tokenization Method
-- Updated EMV Standard
-- Also used by Apple Pay and Google Pay.
-- On smart phones, biometrics are used to secure keys
+- Tokenization Method
+  - Updated EMV Standard
+  - Also used by Apple Pay and Google Pay.
+  - On smart phones, biometrics are used to secure keys
 
 ## Payment
 
-Transaction overview:
-- Device creates DAN and a Private Key during setup
-- DAN and Private Key sent to card issuer
-- Encrypted transaction details are sent to the card issuer.
-- Card issuer decrypts the details and processes the transaction
+- Transaction overview:
+  - Device creates DAN and a Private Key during setup
+  - DAN and Private Key sent to card issuer
+  - Encrypted transaction details are sent to the card issuer.
+  - Card issuer decrypts the details and processes the transaction
 
 ## Asset Tracking
 
-For Individual Items
-- Electronic Product Codes (EPC)
-- Contains URI representing the product
-- EPCglobal network is a giant product database
-- Used by Walmart in conjuction with UPCs
-- Generally LF
-- DoS-able network backend
+- For Individual Items
+  - Electronic Product Codes (EPC)
+  - Contains URI representing the product
+  - EPCglobal network is a giant product database
+  - Used by Walmart in conjuction with UPCs
+  - Generally LF
+  - DoS-able network backend
 
 ## Asset Tracking
 
-For Bulk Items
-- Lots of commercial logistic options
-- Can be LF or HF, depending on the applicaton
-- Usually an active tag for longer range
-- LF can be read up to 2000 meters
-- HF is used with NFC when additional details are required
+- For Bulk Items
+  - Lots of commercial logistic options
+  - Can be LF or HF, depending on the applicaton
+  - Usually an active tag for longer range
+  - LF can be read up to 2000 meters
+  - HF is used with NFC when additional details are required
 
 ## Road / Bridge Tolling
 
@@ -196,7 +196,7 @@ For Bulk Items
  - In the future, passports will include a pin code to enable encryption
 
 ## Cyborgs!
-![cyborg][cyborg.png]
+![cyborg](cyborg.png)
 
 ## Cyborgs!
 
