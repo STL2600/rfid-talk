@@ -169,9 +169,31 @@ For Bulk Items
 ## Animal Tracking
 
  - Active Reader and Active or Passive Tags
- - 120-150 kHz
+ - 120-150 kHz for passive tags
+ - Ultra High Frequency for active tags
+ - Passive tags have 10cm range, active can be much greater
+ 
+## Animal Tracking
+
+ - ISO 11784 & 11785
+   - standards for trackers for pets and livestock
+   - 38 ID bits, plus a country code and 24 application bits
+ - ISO 14223
+   - "advanced" transponder modes
+   - can integrate data storage and sensor logging
+ - ISO 24631
+   - testing standards for performance / conformance
 
 ## Passports
+
+ - Active Reader / Passive Tag
+ - High Frequency - 13.5 Mhz
+ - Standardized by the International Civil Air Organization ICAO
+ 
+## Passports
+
+ - Newer passports use a metal foil lining in the cover for security
+ - In the future, passports will include a pin code to enable encryption
 
 ## Cyborgs
 
